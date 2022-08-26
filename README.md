@@ -42,29 +42,7 @@ npm start
     "html_url": "https://github.com/q9f",
     "followers_url": "https://api.github.com/users/q9f/followers",
     "following_url": "https://api.github.com/users/q9f/following{/other_user}",
-    "gists_url": "https://api.github.com/users/q9f/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/q9f/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/q9f/subscriptions",
-    "organizations_url": "https://api.github.com/users/q9f/orgs",
-    "repos_url": "https://api.github.com/users/q9f/repos",
-    "events_url": "https://api.github.com/users/q9f/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/q9f/received_events",
-    "type": "User",
-    "site_admin": false,
-    "name": "Afri³",
-    "company": "@ChainSafe ",
-    "blog": "https://dev.to/q9",
-    "location": "Berlin",
-    "email": null,
-    "hireable": true,
-    "bio": "libre software and disrupting tech",
-    "twitter_username": null,
-    "public_repos": 63,
-    "public_gists": 4,
-    "followers": 172,
-    "following": 1,
-    "created_at": "2019-12-14T14:19:43Z",
-    "updated_at": "2022-08-25T10:45:38Z"
+    ...
   },
   "eth_address": "0xe611a720778a5f6723d6b4866f84828504657181",
   "ens": [
@@ -83,8 +61,58 @@ npm start
       ],
       "social_uri": ["q9f"]
     }
+  ],
+  "gitpoaps": [
+    {
+      "gitPoapId": 6820,
+      "gitPoapEventId": 252,
+      "poapTokenId": "5437072",
+      "poapEventId": 54839,
+      "poapEventFancyId": "gitpoap-2022-besu-contributor-2022",
+      "name": "GitPOAP: 2022 Besu Contributor",
+      "year": 2022,
+      "description": "You made at least one contribution to the Besu project in 2022. Your contributions are greatly appreciated!",
+      "imageUrl": "https://assets.poap.xyz/gitpoap-2022-besu-contributor-2022-logo-1657743611867.png",
+      "repositories": ["hyperledger/besu"],
+      "earnedAt": "2022-05-29",
+      "mintedAt": "2022-08-03"
+    },
+    {
+      "gitPoapId": 5211,
+      "gitPoapEventId": 208,
+      "poapTokenId": "5437085",
+      "poapEventId": 53604,
+      "poapEventFancyId": "gitpoap-2021-lodestar-contributor-2021",
+      "name": "GitPOAP: 2021 Lodestar Contributor",
+      "year": 2021,
+      "description": "You made at least one contribution to the Lodestar project in 2021. Your contributions are greatly appreciated!",
+      "imageUrl": "https://assets.poap.xyz/gitpoap-2021-lodestar-contributor-2021-logo-1657053471403.png",
+      "repositories": ["ChainSafe/lodestar"],
+      "earnedAt": "2021-09-14",
+      "mintedAt": "2022-08-03"
+    },
+    {
+      "gitPoapId": 5332,
+      "gitPoapEventId": 214,
+      "poapTokenId": "5437082",
+      "poapEventId": 53738,
+      "poapEventFancyId": "gitpoap-2020-prysm-contributor-2020",
+      "name": "GitPOAP: 2020 Prysm Contributor",
+      "year": 2020,
+      "description": "You made at least one contribution to the Prysm project in 2020. Your contributions are greatly appreciated!",
+      "imageUrl": "https://assets.poap.xyz/gitpoap-2020-prysm-contributor-2020-logo-1657131689957.png",
+      "repositories": [
+        "prysmaticlabs/prysm",
+        "prysmaticlabs/prysm-web-ui",
+        "prysmaticlabs/documentation"
+      ],
+      "earnedAt": "2020-04-27",
+      "mintedAt": "2022-08-03"
+    },
+    ...
   ]
 }
+
 ```
 
 ## License
