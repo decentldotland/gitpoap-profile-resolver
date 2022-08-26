@@ -21,6 +21,7 @@ export async function getProfile(github_handle) {
         github_object: githubProfile,
         eth_address: null,
         ens: null,
+        gitpoaps: [],
       };
     }
 
@@ -32,6 +33,7 @@ export async function getProfile(github_handle) {
       github_profile: githubProfile,
       eth_address: ethAddress,
       ens: ens,
+      gitpoaps: userGitPoaps,
     };
   } catch (error) {
     return { error: "something went wrong, try again later :-)" };
