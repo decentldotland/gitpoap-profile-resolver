@@ -1,0 +1,32 @@
+{
+  "name": "gitpoap-profile-resolver",
+  "version": "0.0.1",
+  "description": "profile resolver for GitPOAP",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentldotland/gitpoap-profile-resolver.git"
+  },
+  "keywords": [
+    "gitpoap",
+    "poap",
+    "ark"
+  ],
+  "author": "charmful0x",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/decentldotland/gitpoap-profile-resolver/issues"
+  },
+  "homepage": "https://github.com/decentldotland/gitpoap-profile-resolver#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "github-username-regex": "^1.0.0"
+  }
+}
