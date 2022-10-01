@@ -1,6 +1,6 @@
 {
   "name": "gitpoap-profile-resolver",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "profile resolver for GitPOAP",
   "main": "./dist/src/index.js",
   "scripts": {
