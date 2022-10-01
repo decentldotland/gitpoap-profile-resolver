@@ -1,9 +1,9 @@
-import { getGithubProfile, isValidGithubHandle } from "./github.js";
-import { poapsOf, getPoapOwnerOf } from "./gitpoap.js";
-import { getEnsFromRss3 } from "./rss3.js";
-import "./setEnv.js";
+import { getGithubProfile, isValidGithubHandle } from "./github";
+import { poapsOf, getPoapOwnerOf } from "./gitpoap";
+import { getEnsFromRss3 } from "./rss3";
+import "./setEnv";
 
-export async function getProfile(github_handle) {
+export async function getProfile(github_handle: string) {
   try {
     if (!isValidGithubHandle(github_handle)) {
       return { error: "invalid github username syntax" };
@@ -25,7 +25,7 @@ export async function getProfile(github_handle) {
       };
     }
 
-    const ethAddress = (await getPoapOwnerOf(userGitPoaps[0].poapTokenId))
+    const ethAddress = (await getPoapOwnerOf(userGitPoaps[0].poapTokenId as string))
       ?.owner;
     const ens = await getEnsFromRss3(ethAddress);
 

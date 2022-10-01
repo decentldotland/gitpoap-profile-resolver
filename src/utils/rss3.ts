@@ -1,6 +1,7 @@
 import axios from "axios";
+import { esnElelment } from "./types";
 
-export async function getEnsFromRss3(eth_address) {
+export async function getEnsFromRss3(eth_address: string) {
   try {
     const profileConfig = {
       method: "get",
@@ -12,11 +13,10 @@ export async function getEnsFromRss3(eth_address) {
 
     const res = (await axios(profileConfig))?.data?.result;
     // filter instead of find incase the wallet owns multiple ENS domains
-    const ens = res.filter((element) => element.platform === "ENS");
+    const ens = res.filter((element: esnElelment) => element.platform === "ENS Registrar");
 
     return ens ? ens : null;
   } catch (error) {
-    console.log(error);
     return null;
   }
 }
